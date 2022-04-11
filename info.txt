@@ -1,0 +1,33 @@
+graphlql- fast/flexible/friendly api(alternative to rest)
+
+graphql has type sort of like a schema
+
+! next to prop means field is required
+
+can have a type inside of a type (schema inside of schema(message inside of query))
+
+get data with resolvers(GET)
+
+mutations are like post request
+
+
+webpack config brings in babel for js starts on 8080 brings 
+in any css we want using style upload
+
+using shards(lightweight styling framework)
+
+polling is not good because it will constanly make request for the time given
+
+pubsub is a public suscribe handler for graphql
+
+websocket connection to server what happens
+http request(upgrade)
+flip around connections to be able to support live 
+connection between server and client
+this allows graphql protocol that sits on top of this
+to accept incoming data from the server when subscriptions are updated
+
+module federation
+allows to take pieces of your app to share(live sharing system)
+exposes in webpack allows which part of the app you want to expose(share)
+remoteentry.js(shows what this app is exposing)
